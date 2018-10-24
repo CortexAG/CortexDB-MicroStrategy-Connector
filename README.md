@@ -1,6 +1,8 @@
 MicroStrategy connector (Prototype)
 ===================================
 
+You'll find the German translation in the [same folder](./README-de.md).
+
 The Connector for [MicroStrategy](https://www.microstrategy.com/) allows the connection between a configured CortexDB with CortexUniplex and the [MicroStrategy analytics tools](https://www.microstrategy.com/).
 
 Requirements
@@ -38,7 +40,7 @@ Depending on the server configuration it is necessary to add some attributes to 
 
 If the CortexDB server and webserver runs in a stand alone version, the following lines has to be copied in the ini-block `HTTPSRV` of the `ctxserver.ini`.
 
-If The CortexDB database and the webservers runs in two different processes, the following lines has to be copied in each (!!!) `vhost`-block of the `ctxhttpd.ini`.
+If the CortexDB database and the webservers runs in two different processes, the following lines has to be copied in each (!!!) `vhost`-block of the `ctxhttpd.ini`.
 
 ```ini
 HttpHeader=Strict-Transport-Security:
@@ -96,7 +98,7 @@ Back to the MicroStrategy sources click on the new extension:
 
 ![added connector](./readme-images/5-AddedConnector.png)
 
-The tools opens with select boxes for the configured preselections of the CortexUniplex (`portal configuration`).
+The tool opens with select boxes for the configured preselections of the CortexUniplex (`portal configuration`).
 
 ![connector portal selector](./readme-images/6-ConnectorPortalSelect.png)
 
