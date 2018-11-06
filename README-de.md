@@ -3,14 +3,10 @@ MicroStrategy connector (Prototyp)
 
 Die englische Übersetzung dieser readme-Datei ist im [selben Verzeichnis](./README.md) zu finden.
 
-Der Connector für[MicroStrategy](https://www.microstrategy.com/) ermöglicht die Verbindung zwischen einer konfigurierten CortexDB mit CortexUniplex und den[MicroStrategy Analytics Tools](https://www.microstrategy.com/).
+Der Connector für [MicroStrategy](https://www.microstrategy.com/) ermöglicht die Verbindung zwischen einer konfigurierten CortexDB mit CortexUniplex und den [MicroStrategy Analytics Tools](https://www.microstrategy.com/).
 
 Voraussetzungen
 ---------------
-
-The connector in this version needs the UniplexDataservice in version 4.0.038. You can download it from the [Cortex AG website](https://www.cortex-ag.com) with a user registration to access the download area.
-
-Furthermore a configured CortexUniplex is necessary. 
 
 Der Connector in dieser Version benötigt den UniplexDataservice in der Version 4.0.038. Dieser kann von der Website der [Cortex AG](https://www.cortex-ag.com) mit vorheriger Benutzerregistrierung herunterladenwerden.
 
@@ -80,7 +76,7 @@ Es ist möglich `localhost` anstelle von `127.0.0.1` zu verwenden, aber es kann 
 
 ### Die einzelnen Konfigurationsschritte im Detail
 
-Start von MicroStrategy and hinzufügen einer neuen Datenquelle:
+Start von MicroStrategy und Hinzufügen einer neuen Datenquelle:
 
 ![start MicroStrategy](./readme-images/1-Start_MiStr.png)
 
