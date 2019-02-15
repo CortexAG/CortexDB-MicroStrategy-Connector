@@ -8,7 +8,7 @@ Der Connector für [MicroStrategy](https://www.microstrategy.com/) ermöglicht d
 Voraussetzungen
 ---------------
 
-Der Connector in dieser Version benötigt den UniplexDataservice in der Version 4.0.038. Dieser kann von der Website der [Cortex AG](https://www.cortex-ag.com) mit vorheriger Benutzerregistrierung herunterladenwerden.
+Der Connector in dieser Version benötigt den **UniplexDataservice in der Version 4.0.038**. Dieser kann von der Website der [Cortex AG](https://www.cortex-ag.com) mit vorheriger Benutzerregistrierung herunterladenwerden.
 
 Weiterhin ist ein konfigurierter CortexUniplex erforderlich. 
 
@@ -59,7 +59,7 @@ Die folgenden Schritte müssen für die Konfiguration durchgeführt werden:
 - Connector hinzufügen
 - Verbindungsdaten manuell eingeben
 
-Wenn der CortexDB-Webserver lokal auf Port 80 läuft, kann die folgende URL zum ConneCtor verwendet werden:
+Wenn der CortexDB-Webserver lokal auf Port 80 läuft, kann die folgende URL zum Connector verwendet werden:
 
 ```text
 http://127.0.0.1/i/CortexMstrConnector/index.html
